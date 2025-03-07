@@ -11,19 +11,19 @@
     <EditText
         android:id="@+id/etName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
         android:hint="Digite seu nome"
         android:imeOptions="actionDone"
-        android:inputType="textPersonName"
-        android:gravity="center"
-        android:layout_margin="16dp" />
+        android:inputType="textPersonName" />
 
     <!-- Texto que exibirá o Hello World, incrementado com o nome -->
     <TextView
         android:id="@+id/tvHelloMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Hello World!"
-        android:textSize="24sp"
-        android:layout_marginTop="16dp" />
+        android:textSize="24sp" />
 </LinearLayout>

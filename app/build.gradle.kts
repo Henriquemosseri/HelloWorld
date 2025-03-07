@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "henriquemosseri.com.github.helloworld"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "henriquemosseri.com.github.helloworld"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
